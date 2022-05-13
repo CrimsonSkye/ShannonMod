@@ -1,0 +1,379 @@
+[
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-aged",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "aged" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-aged-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-birch",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "birch" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-birch-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-oak",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "oak" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-oak-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-maple",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "maple" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-maple-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-pine",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "pine" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-pine-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-acacia",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "acacia" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-acacia-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-kapok",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "kapok" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-kapok-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-baldcypress",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "baldcypress" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-baldcypress-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-larch",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "larch" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-larch-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-redwood",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "redwood" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-redwood-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-ebony",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "ebony" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-ebony-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-walnut",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "walnut" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-walnut-{secondary}-east"
+    }
+  },
+  {
+    "ingredientPattern": "_P_,BRB,_P_",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:plank-purpleheart",
+        "name": "primary",
+        "quantity": 2
+      },
+      "B": {
+        "type": "item",
+        "code": "game:plank-*",
+        "name": "secondary",
+        "quantity": 2,
+        "states": [ "purpleheart" ],
+        "loadFromProperties": "block/wood"
+      },
+      "R": {
+        "type": "item",
+        "code": "game:resin"
+      }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+      "type": "block",
+      "code": "cuttingboard-purpleheart-{secondary}-east"
+    }
+  }
+]

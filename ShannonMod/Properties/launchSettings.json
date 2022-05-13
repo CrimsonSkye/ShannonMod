@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ShannonMod": {
+      "commandName": "Project",
+      "commandLineArgs": "--addModPath=\"C:\\Users\\CrimsonSkye33\\Desktop\\VS Modding\\repos\\ShannonMod\\ShannonMod\\bin\\Debug\" -- addOrigin=\"C:\\Users\\CrimsonSkye33\\Desktop\\VS Modding\\repos\\ShannonMod\\ShannonMod\\assets\"",
+      "workingDirectory": "C:\\Users\\CrimsonSkye33\\AppData\\Roaming\\Vintagestory\\VS1165"
+    }
+  }
+}

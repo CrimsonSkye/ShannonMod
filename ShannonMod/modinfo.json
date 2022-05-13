@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "shannonmod",
+  "name": "Shannon Mod",
+  "author": "AnxietyPealope",
+  "description": "A Simple Expansion on VS",
+  "version": "0.0.1",
+  "dependency": {
+    "game": ""
+  }
+}

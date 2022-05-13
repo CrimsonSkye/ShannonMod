@@ -1,0 +1,163 @@
+{
+  "code": "cuttingboard",
+  "creativeinventory": { "general": [ "*-east" ] },
+  "attributes": {
+    "rackable": true,
+    "toolrackTransform": {
+      "origin": {
+        "x": 0.5,
+        "y": 1.5,
+        "z": 0.5
+      }
+    }
+  },
+  "behaviors": [
+    {
+      "name": "HorizontalOrientable",
+      "properties": { "dropBlockFace": "east" }
+    },
+    { "name": "Unstable" },
+    { "name": "RightClickPickup" }
+  ],
+  "blockmaterial": "Wood",
+  "variantgroups": [
+    {
+      "code": "primary",
+      "states": [ "aged" ],
+      "loadFromProperties": "block/wood"
+    },
+    {
+      "code": "secondary",
+      "states": [ "aged" ],
+      "loadFromProperties": "block/wood"
+    },
+    {
+      "code": "side",
+      "loadFromProperties": "abstract/horizontalorientation"
+    }
+  ],
+  "shapeByType": {
+    "*-north": {
+      "base": "shannonmod:blocks/cuttingboard",
+      "rotateY": 90
+    },
+    "*-east": {
+      "base": "shannonmod:blocks/cuttingboard",
+      "rotateY": 0
+    },
+    "*-south": {
+      "base": "shannonmod:blocks/cuttingboard",
+      "rotateY": 270
+    },
+    "*-west": {
+      "base": "shannonmod:blocks/cuttingboard",
+      "rotateY": 180
+    }
+  },
+  "textures": {
+    "primary": { "base": "game:block/wood/debarked/{primary}" },
+    "secondary": { "base": "game:block/wood/debarked/{secondary}" }
+  },
+  "resistance": 3.5,
+  "sideopaque": { "all": false },
+  "sidesolid": { "all": false },
+  "collisionBox": {
+    "x1": 0.25,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.75,
+    "y2": 0.0625,
+    "z2": 0.9375,
+    "rotateYByType": {
+      "*-north": 90,
+      "*-east": 0,
+      "*-south": 270,
+      "*-west*": 180
+    }
+  },
+  "selectionBox": {
+    "x1": 0.25,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.75,
+    "y2": 0.0625,
+    "z2": 0.9375,
+    "rotateYByType": {
+      "*-north": 90,
+      "*-east": 0,
+      "*-south": 270,
+      "*-west*": 180
+    }
+  },
+  "guiTransform": {
+    "translation": {
+      "x": -4,
+      "y": -8,
+      "z": 10
+    },
+    "rotation": {
+      "x": -51,
+      "y": -45.3,
+      "z": 9
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.2,
+      "z": 0.485
+    },
+    "scale": 1.82
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": -0.25,
+      "y": 0.25,
+      "z": 0.8
+    },
+    "rotation": {
+      "x": 23,
+      "y": -28,
+      "z": 2
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -2,
+      "y": -0.1,
+      "z": 0.4
+    },
+    "rotation": {
+      "x": 24,
+      "y": -88,
+      "z": -28
+    },
+    "origin": {
+      "x": 0.4,
+      "y": 4.2,
+      "z": -0.6
+    },
+    "scale": 1
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": -45,
+      "z": 0
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 5
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "break": "game:block/planks"
+  },
+  "lightabsorption": 0
+}

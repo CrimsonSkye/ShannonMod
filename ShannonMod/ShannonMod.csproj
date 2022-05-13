@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RunAnalyzersDuringBuild>False</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Lib\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\VintagestoryAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\VintagestoryLib.dll</HintPath>
+    </Reference>
+    <Reference Include="VSBuildLib">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\VSBuildLib.dll</HintPath>
+    </Reference>
+    <Reference Include="VSCreativeMod">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Mods\VSCreativeMod.dll</HintPath>
+    </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Mods\VSEssentials.dll</HintPath>
+    </Reference>
+    <Reference Include="VSSurvivalMod">
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Mods\VSSurvivalMod.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="assets\shannonmod\blocktypes\cuttingboard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\blocktypes\hidedoor.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\lang\en.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\recipes\grid\cuttingboard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\recipes\grid\sticks.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\shapes\blocks\cuttingboard.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="modinfo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
