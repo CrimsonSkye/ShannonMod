@@ -4,7 +4,7 @@
   "name": "Shannon Mod",
   "author": "AnxietyPealope",
   "description": "A Simple Expansion on VS",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "dependency": {
     "game": ""
   }
