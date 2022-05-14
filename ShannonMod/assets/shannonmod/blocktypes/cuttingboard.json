@@ -1,5 +1,7 @@
 {
   "code": "cuttingboard",
+  "class": "cuttingboard",
+  "entityClass": "becuttingboard",
   "creativeinventory": { "general": [ "*-east" ] },
   "attributes": {
     "rackable": true,

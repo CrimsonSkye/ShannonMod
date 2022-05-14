@@ -1,5 +1,7 @@
 ﻿1.16-v0.2.0
-
+-Added Cutting Board BlockEntity Class
+	- Added Inventory Interaction
+-Added Cutting Board Block Class
+	- Added Block Interaction
 1.16-v0.1.0
 - added cutting board
-	-
