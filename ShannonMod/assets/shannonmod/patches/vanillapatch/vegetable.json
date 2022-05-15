@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*/smCuttingBoardProps",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "vegetable-{type}-cut",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*/smCuttingBoardTransform",
+    "value": {
+      "translation": {
+        "x": -0.125,
+        "y": 0.4,
+        "z": 0.6625
+      },
+      "rotation": {
+        "x": 140,
+        "y": 45,
+        "z": 120
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-Onion",
+    "value": {
+      "inContainerTexture": { "base": "block/wood/barrel/raw-{type}" },
+      "nutritionPropsWhenInMeal": {
+        "satiety": 150,
+        "foodcategory": "Vegetable"
+      },
+      "inPieProperties": {
+        "texture": "block/food/pie/fill-{type}",
+        "partType": "Filling"
+      },
+      "smCuttingBoardProps": {
+        "translation": {
+          "x": -0.375,
+          "y": 0.4,
+          "z": 0.6
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 1
+      }
+    },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "server"
+  }
+]

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShannonMod.CollectibleBehaviors;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Vintagestory.API.Client;
@@ -15,6 +16,7 @@ namespace ShannonMod.BlockEntities
         public readonly InventoryGeneric inv;
         public override InventoryBase Inventory => inv;
         public override string InventoryClassName => "cuttingboard";
+        public override string AttributeTransformCode => "smCuttingBoardTransform";
 
         public BECuttingBoard()
         { inv = new InventoryGeneric(1, "cuttingboard-slot", null, null);
@@ -34,15 +36,18 @@ namespace ShannonMod.BlockEntities
         internal bool OnInteract(IPlayer byPlayer, BlockSelection blockSel)
         {
             ItemSlot activeHotbarSlot = byPlayer.InventoryManager.ActiveHotbarSlot;
-            if (activeHotbarSlot.Empty)
+            if (activeHotbarSlot.Empty || activeHotbarSlot.Itemstack.Collectible.HasBehavior<BehaviorFoodCutter>())
             {
                 return this.TryTake(byPlayer, blockSel);
             }
+          
             CollectibleObject collectible = activeHotbarSlot.Itemstack.Collectible;
-            //if (collectible.Attributes == null || !collectible.Attributes["shelvable"].AsBool(false))
-            //{
-            //    return false;
-            //}
+            JsonObject attributes = collectible.Attributes;
+            if(attributes==null || !attributes["smCuttingBoardProps"]["cuttable"].AsBool(false))
+            {
+                return false;
+            }
+
             ItemStack itemstack = activeHotbarSlot.Itemstack;
             AssetLocation assetLocation;
             if (itemstack == null)
@@ -121,16 +126,7 @@ namespace ShannonMod.BlockEntities
             return false;
         }
 
-        public override void TranslateMesh(MeshData mesh, int index)
-        {
-            float x = 0.65f;
-            float y = 0.05f;
-            float z = 0.56f;
-            Vec4f vec4f = this.mat.TransformVector(new Vec4f(x - 0.5f, y, z - 0.5f, 0f));
-            mesh.Translate(vec4f.XYZ);
-        }
-
-        private Matrixf mat = new Matrixf();
+       private Matrixf mat = new Matrixf();
 
     } 
 };

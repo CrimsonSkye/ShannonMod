@@ -67,6 +67,12 @@
     <None Update="assets\shannonmod\lang\en.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\redmeat.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\vegetable.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\shannonmod\recipes\grid\cuttingboard.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
