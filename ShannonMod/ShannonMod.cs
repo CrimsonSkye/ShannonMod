@@ -1,5 +1,6 @@
 ﻿using ShannonMod.BlockEntities;
 using ShannonMod.Blocks;
+using ShannonMod.CollectibleBehaviors;
 using System;
 using Vintagestory.API.Common;
 
@@ -15,6 +16,9 @@ namespace ShannonMod
 
             //register block entities
             api.RegisterBlockEntityClass("becuttingboard", typeof(BECuttingBoard));
+
+            //register collectible behaviors
+            api.RegisterCollectibleBehaviorClass("FoodCutting", typeof(BehaviorFoodCutter));
         }
     }
 }

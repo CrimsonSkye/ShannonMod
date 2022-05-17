@@ -67,6 +67,9 @@
     <None Update="assets\shannonmod\lang\en.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\knife.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\shannonmod\patches\vanillapatch\redmeat.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

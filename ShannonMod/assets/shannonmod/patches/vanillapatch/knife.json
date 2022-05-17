@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/foodcutter",
+    "value": true,
+    "file": "game:itemtypes/tool/knife.json",
+    "side": "server"
+  }
+]
