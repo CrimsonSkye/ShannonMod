@@ -1,4 +1,8 @@
-﻿1.16-v0.2.0
+﻿1.16-v0.3.0
+- Added ExampleBehavior for reference
+- Added methods to both EBCuttingBlock and CuttingBlock to use food and knife attributes data
+- Added attributes to knife, redmeat, and vegetable through vanilla patches
+1.16-v0.2.0
 -Added Cutting Board BlockEntity Class
 	- Added Inventory Interaction
 -Added Cutting Board Block Class

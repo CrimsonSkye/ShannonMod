@@ -7,8 +7,8 @@ using Vintagestory.API.Datastructures;
 using Vintagestory.API.Util;
 
 namespace ShannonMod.CollectibleBehaviors
-{
-    class BehaviorFoodCutter : CollectibleBehavior {
+{// Example Behavior Class for Reference. Not used for cutting board interactions
+    class ExampleBehavior : CollectibleBehavior {
         ICoreAPI api;
         ICoreClientAPI capi;
 
@@ -17,7 +17,7 @@ namespace ShannonMod.CollectibleBehaviors
             base.Initialize(properties);
         }
 
-        public BehaviorFoodCutter(CollectibleObject collObj) : base(collObj)
+        public ExampleBehavior(CollectibleObject collObj) : base(collObj)
         {
             this.collObj = collObj;
         }
