@@ -6,6 +6,16 @@
   "attributes": {
     "rackable": true,
     "toolrackTransform": {
+      "translation": {
+        "x": 0,
+        "y": 0.6,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 90,
+        "z": 1
+      },
       "origin": {
         "x": 0.5,
         "y": 1.5,

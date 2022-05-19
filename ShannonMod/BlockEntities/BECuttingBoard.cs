@@ -20,7 +20,7 @@ namespace ShannonMod.BlockEntities
         public override string InventoryClassName => "cuttingboard";
         // Overrides variable AttributeTransformCode to be equal to the value of string "smCuttingBoardTransform" (using lambda)
         public override string AttributeTransformCode => "smCuttingBoardTransform";
-        
+        //public override string AttributeTransformCode => "onDisplayTransform";
         //Creates new method BECuttingBoard. 
         public BECuttingBoard()
          // Defining new variables within method. Both variables are equal to the value of the new instances of classes InventoryGeneric and MeshData. 
