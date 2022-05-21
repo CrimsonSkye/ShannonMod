@@ -138,7 +138,105 @@ namespace ShannonMod.BlockEntities
             return false; // if the for-loop statement's are false, then return false. 
         }
 
-       private Matrixf mat = new Matrixf(); // access variable Matrixf, define variable mat to create a new instance of Matrixf. Matrixf handles values related to the EntityBlock. 
+        public override void updateMeshes()
+        {
+            for (int i = 0; i < this.meshes.Length; i++)
+            {
+                this.updateMesh(i);
+            }
+
+            base.updateMeshes();
+        }
+
+        protected override void updateMesh(int index)
+        {
+            if (this.Api == null || this.Api.Side == EnumAppSide.Server)
+            {
+                return;
+            }
+            if (this.Inventory[index].Empty)
+            {
+                this.meshes[index] = null;
+                return;
+            }
+            MeshData meshData = this.genMesh(this.Inventory[index].Itemstack);
+            this.TranslateMesh(meshData, index);
+            this.meshes[index] = meshData;
+        }
+
+        public override void TranslateMesh(MeshData mesh, int index)
+        {
+            
+            JsonObject North = this.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardTranslate"]["north"];
+            JsonObject South = this.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardTranslate"]["south"];
+            JsonObject West = this.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardTranslate"]["west"];
+            JsonObject East = this.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardTranslate"]["east"];
+            float x = 0f;
+            float y = 0f;
+            float z = 0f;
+
+            if (Block.Variant["side"] == "north")
+            {
+                x = North?["x"] != null ? North["x"].AsFloat() : 0;
+                y = North?["y"] != null ? North["y"].AsFloat() : 0;
+                z = North?["z"] != null ? North["z"].AsFloat() : 0;
+
+                Vec4f offset = mat.TransformVector(new Vec4f(x, y, z, 0));
+                mesh.Translate(offset.XYZ);
+            }
+            else if (Block.Variant["side"] == "south")
+            {
+                x = South?["x"] != null ? South["x"].AsFloat() : 0;
+                y = South?["y"] != null ? South["y"].AsFloat() : 0;
+                z = South?["z"] != null ? South["z"].AsFloat() : 0;
+
+                Vec4f offset = mat.TransformVector(new Vec4f(x, y, z, 0));
+                mesh.Translate(offset.XYZ);
+            }
+            else if (Block.Variant["side"] == "west")
+            {
+                x = West?["x"] != null ? West["x"].AsFloat() : 0;
+                y = West?["y"] != null ? West["y"].AsFloat() : 0;
+                z = West?["z"] != null ? West["z"].AsFloat() : 0;
+
+                Vec4f offset = mat.TransformVector(new Vec4f(x, y, z, 0));
+                mesh.Translate(offset.XYZ);
+            }
+            else if (Block.Variant["side"] == "east")
+            {
+                x = East?["x"] != null ? East["x"].AsFloat() : 0;
+                y = East?["y"] != null ? East["y"].AsFloat() : 0;
+                z = East?["z"] != null ? East["z"].AsFloat() : 0;
+
+                Vec4f offset = mat.TransformVector(new Vec4f(x, y, z, 0));
+                mesh.Translate(offset.XYZ);
+            }
+        }
+        protected override MeshData genMesh(ItemStack stack)
+        {
+
+            IContainedMeshSource containedMeshSource = stack.Collectible as IContainedMeshSource;
+            MeshData meshData;
+            if (containedMeshSource != null)
+            {
+                meshData = containedMeshSource.GenMesh(stack, this.capi.BlockTextureAtlas, this.Pos);
+                meshData.Rotate(new Vec3f(0.5f, 0.5f, 0.5f), 0f, base.Block.Shape.rotateY * 0.017453292f, 0f);
+            }
+            else
+            {
+                this.nowTesselatingObj = stack.Collectible;
+                this.nowTesselatingShape = capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
+                capi.Tesselator.TesselateItem(stack.Item, out meshData, this);
+            }
+            ModelTransform transform = stack.Collectible.Attributes[this.AttributeTransformCode].AsObject<ModelTransform>();
+            transform.EnsureDefaultValues();
+            transform.Rotation.Y = Block.Shape.rotateY+90;
+            meshData.ModelTransform(transform);
+
+            return meshData;
+        }
+
+        private Matrixf mat = new Matrixf(); // access variable Matrixf, define variable mat to create a new instance of Matrixf. Matrixf handles values related to the EntityBlock. 
 
     } 
 };
