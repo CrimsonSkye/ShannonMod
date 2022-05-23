@@ -2,6 +2,9 @@
 - Added ExampleBehavior for reference
 - Added methods to both EBCuttingBlock and CuttingBlock to use food and knife attributes data
 - Added attributes to knife, redmeat, and vegetable through vanilla patches
+- Added more patches for bushmeat, poultry, and mushrooms (blocks)
+- Prepped Baking pan block and BE for work
+- Editted CuttingBoard BE to accept blocks
 1.16-v0.2.0
 -Added Cutting Board BlockEntity Class
 	- Added Inventory Interaction
