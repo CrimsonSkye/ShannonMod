@@ -98,24 +98,189 @@
                 },
               "smCuttingBoardTranslate": {
                   "north": {
+                    "x": 0.1875,
+                    "y": 0.03125,
+                    "z": 0
+                  },
+                  "south": {
+                    "x": 0.5,
+                    "y": 0.03125,
+                    "z": 0
+                  },
+                  "west": {
+                    "x": 0.3125,
+                    "y": 0.03125,
+                    "z": 0.1875
+                  },
+                  "east": {
+                    "x": 0.3125,
+                    "y": 0.03125,
+                    "z": -0.1875
+                  }
+                }
+              },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-bellpepper",
+    "value": { 
+              "inContainerTexture": { "base": "block/wood/barrel/raw-{type}" },
+              "nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
+              "inPieProperties": { "texture": "block/food/pie/fill-{type}", "partType": 'Filling' },
+              "smCuttingBoardProps": {
+                  "cuttable": true,
+                  "output": {"code": "vegetable-{type}-chopped", "quantity": 4}
+                  },
+              "smCuttingBoardTransform": {
+                  "translation": {
+                    "x": -0.34375,
+                    "y": -0.04825,
+                    "z": 0
+                  },
+                  "rotation": {
                     "x": 0,
+                    "y": 0,
+                    "z": 90
+                  },
+                  "origin": {
+                    "x": 0.5,
+                    "y": 0.15625,
+                    "z": 0.5
+                  },
+                  "scale": 0.8
+                },
+              "smCuttingBoardTranslate": {
+                  "north": {
+                    "x": 0.1875,
+                    "y": 0.0625,
+                    "z": 0
+                  },
+                  "south": {
+                    "x": 0.5,
+                    "y": 0.0625,
+                    "z": 0
+                  },
+                  "west": {
+                    "x": 0.3125,
+                    "y": 0.0625,
+                    "z": 0.125
+                  },
+                  "east": {
+                    "x": 0.3125,
+                    "y": 0.0625,
+                    "z": -0.125
+                  }
+                }
+              },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-parsnip",
+    "value": { 
+              "inContainerTexture": { "base": "block/wood/barrel/raw-{type}" },
+              "nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
+              "inPieProperties": { "texture": "block/food/pie/fill-{type}", "partType": 'Filling' },
+              "smCuttingBoardProps": {
+                  "cuttable": true,
+                  "output": {"code": "vegetable-{type}-chopped", "quantity": 4}
+                  },
+              "smCuttingBoardTransform": {
+                  "translation": {
+                    "x": -0.34375,
+                    "y": -0.04825,
+                    "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 90
+                  },
+                  "origin": {
+                    "x": 0.5,
+                    "y": 0.15625,
+                    "z": 0.5
+                  },
+                  "scale": 0.8
+                },
+              "smCuttingBoardTranslate": {
+                  "north": {
+                    "x": 0.1875,
                     "y": 0,
                     "z": 0
                   },
                   "south": {
-                    "x": 0,
+                    "x": 0.5,
                     "y": 0,
                     "z": 0
                   },
                   "west": {
-                    "x": 0,
+                    "x": 0.375,
                     "y": 0,
-                    "z": 0
+                    "z": 0.1875
                   },
                   "east": {
-                    "x": 0,
+                    "x": 0.375,
                     "y": 0,
+                    "z": -0.1875
+                  }
+                }
+              },
+    "file": "game:itemtypes/food/vegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*-olive",
+    "value": { 
+              "inContainerTexture": { "base": "block/wood/barrel/raw-{type}" },
+              "nutritionPropsWhenInMeal": { "satiety": 150, "foodcategory": "Vegetable" },
+              "inPieProperties": { "texture": "block/food/pie/fill-{type}", "partType": 'Filling' },
+              "smCuttingBoardProps": {
+                  "cuttable": true,
+                  "output": {"code": "vegetable-{type}-chopped", "quantity": 4}
+                  },
+              "smCuttingBoardTransform": {
+                  "translation": {
+                    "x": -0.34375,
+                    "y": -0.04825,
                     "z": 0
+                  },
+                  "rotation": {
+                    "x": 0,
+                    "y": 90,
+                    "z": 135
+                  },
+                  "origin": {
+                    "x": 0.5,
+                    "y": 0.15625,
+                    "z": 0.5
+                  },
+                  "scale": 0.5
+                },
+              "smCuttingBoardTranslate": {
+                  "north": {
+                    "x": 0.25,
+                    "y": 0.0125,
+                    "z": 0
+                  },
+                  "south": {
+                    "x": 0.5,
+                    "y": 0.0125,
+                    "z": 0
+                  },
+                  "west": {
+                    "x": 0.3125,
+                    "y": 0.0125,
+                    "z": 0.125
+                  },
+                  "east": {
+                    "x": 0.3125,
+                    "y": 0.0125,
+                    "z": -0.125
                   }
                 }
               },

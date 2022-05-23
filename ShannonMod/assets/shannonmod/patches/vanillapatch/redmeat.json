@@ -1,40 +1,57 @@
 [
   {
     "op": "add",
-    "path": "/attributes/smCuttingBoardProps",
+    "path": "/attributes",
     "value": {
-      "cuttable": true,
-      "output": {
-        "code": "redmeat-cut",
-        "quantity": 4
-      }
-    },
-    "file": "game:itemtypes/food/redmeat.json",
-    "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/attributes/smCuttingBoardTransform",
-    "value": {
-      "translation": {
-        "x": 0,
-        "y": 0.15625,
-        "z": -0.0625
+      "smCuttingBoardProps": {
+        "cuttable": true,
+        "output": {
+          "code": "redmeat-cut",
+          "quantity": 4
+        }
       },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0
+      "smCuttingBoardTransform": {
+          "translation": {
+            "x": 0,
+            "y": 0.15625,
+            "z": -0.0625
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 180
+          },
+          "origin": {
+            "x": 0.65,
+            "y": 0,
+            "z": 0.56
+          },
+          "scale": 1
       },
-      "origin": {
-        "x": 0.65,
-        "y": 0,
-        "z": 0.56
-
+      "smCuttingBoardTranslate": {
+          "north": {
+            "x": -0.03125,
+            "y": -0.03125,
+            "z": -0.125
+          },
+          "south": {
+            "x": -0.25,
+            "y": -0.03125,
+            "z": 0.125
+          },
+          "west": {
+            "x": -0.25,
+            "y": -0.03125,
+            "z": -0.125
+          },
+          "east": {
+            "x": -0.03125,
+            "y": -0.03125,
+            "z": 0.125
+          }
+        }
       },
-      "scale": 1
-    },
-    "file": "game:itemtypes/food/redmeat.json",
-    "side": "server"
-  }
+      "file": "game:itemtypes/food/redmeat.json",
+      "side": "server"
+    }
 ]

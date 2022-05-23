@@ -7,35 +7,35 @@
 
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Lib\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Lib\0Harmony.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Lib\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Lib\Newtonsoft.Json.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VintagestoryAPI">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\VintagestoryAPI.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\VintagestoryAPI.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VintagestoryLib">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\VintagestoryLib.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\VintagestoryLib.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSBuildLib">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\VSBuildLib.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\VSBuildLib.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSCreativeMod">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Mods\VSCreativeMod.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Mods\VSCreativeMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSEssentials">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Mods\VSEssentials.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Mods\VSEssentials.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="VSSurvivalMod">
-      <HintPath>..\..\..\..\AppData\Roaming\VintageStory\VS1165\Mods\VSSurvivalMod.dll</HintPath>
+      <HintPath>..\..\..\..\..\AppData\Roaming\Vintagestory\VS1165\Mods\VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>
@@ -65,7 +65,16 @@
     <None Update="assets\shannonmod\lang\en.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\bushmeat.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\shannonmod\patches\vanillapatch\knife.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\mushroom.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\poultry.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\shannonmod\patches\vanillapatch\redmeat.json">

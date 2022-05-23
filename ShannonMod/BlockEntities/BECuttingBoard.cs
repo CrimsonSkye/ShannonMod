@@ -225,12 +225,21 @@ namespace ShannonMod.BlockEntities
             else
             {
                 this.nowTesselatingObj = stack.Collectible;
-                this.nowTesselatingShape = capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
-                capi.Tesselator.TesselateItem(stack.Item, out meshData, this);
+                this.nowTesselatingShape = stack.Collectible is Block ? capi.TesselatorManager.GetCachedShape(stack.Block.Shape.Base) : capi.TesselatorManager.GetCachedShape(stack.Item.Shape.Base);
+                if (stack.Collectible is Block)
+                {
+                    capi.Tesselator.TesselateBlock(stack.Block, out meshData);
+                }
+                else
+                {
+                    capi.Tesselator.TesselateItem(stack.Item, out meshData, this);
+                }
             }
             ModelTransform transform = stack.Collectible.Attributes[this.AttributeTransformCode].AsObject<ModelTransform>();
             transform.EnsureDefaultValues();
-            transform.Rotation.Y = Block.Shape.rotateY+90;
+            transform.Rotation.X = transform.Rotation.X;
+            transform.Rotation.Y = (Block.Shape.rotateY+90) + transform.Rotation.Y;
+            transform.Rotation.Z = transform.Rotation.Z;
             meshData.ModelTransform(transform);
 
             return meshData;
