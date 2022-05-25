@@ -1,0 +1,73 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType",
+    "value": {
+      "pumpkin-fruit-4": {
+        "cuttable": true,
+        "output": {
+          "code": "game:vegetable-pumpkin",
+          "quantity": 4
+        }
+      }
+    },
+    "file": "game:blocktypes/plant/pumpkin/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType",
+    "value": {
+      "pumpkin-fruit-4": {
+        "translation": {
+          "x": -0.34375,
+          "y": -0.04825,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.15625,
+          "z": 0.5
+        },
+        "scale": 0.5
+      }
+    },
+    "file": "game:blocktypes/plant/pumpkin/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType",
+    "value": {
+      "pumpkin-fruit-4": {
+        "north": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "south": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "west": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "east": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    "file": "game:blocktypes/plant/pumpkin/fruit.json",
+    "side": "server"
+  }
+]

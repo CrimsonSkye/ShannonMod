@@ -28,7 +28,6 @@ namespace ShannonMod.Blocks
                 byPlayer.Entity.StartAnimation("axechop");
                 return true;
             }
-            api.Logger.Debug("Checkpoint Pealope");
             //If none of those conditions are met, then returns EBCuttingBoard on interact" 
             return becuttingBoard.OnInteract(byPlayer, blockSel);
         }
@@ -39,22 +38,26 @@ namespace ShannonMod.Blocks
             CollectibleObject colObj = byPlayer.InventoryManager.ActiveHotbarSlot.Itemstack?.Collectible;
             BECuttingBoard becuttingboard = world.BlockAccessor.GetBlockEntity(blockSel.Position) as BECuttingBoard;
             BlockPos pos = blockSel.Position;
-            api.Logger.Debug("Checkpoint Rat");
             //Conditional statement with two conditional statement within method to provide appropriate return values. First conditional statement: if variable becuttingboard does not have an empty inventory. 
             if (!becuttingboard.Inventory[0].Empty)
             {   //Second conditional statement. If the sound played is less than the seconds used, then play sound "chop2" and play next sound at 1.7f pace"
                 if (playNextSound < secondsUsed)
                 {
-                    api.Logger.Debug("Checkpoint Chicken");
                     api.World.PlaySoundAt(new AssetLocation("sounds/block/chop2"), pos.X, pos.Y, pos.Z, null, true, 32, 1f);
                     playNextSound += 1.7f;
                 }
                 //Third conditional statement. If seconds used is greater than int 2, then retrieve item carrot, clear BECuttingBlock inventory, update visual meshes, triggers block change event, and returns false. 
                 if (secondsUsed >= 2)
                 {
-                    ItemStack stack = new ItemStack(api.World.GetItem(new AssetLocation("vegetable-carrot")));
-                    becuttingboard.Inventory.Clear();
-                    byPlayer.InventoryManager.TryGiveItemstack(stack);
+                    ItemStack outPutstack = new ItemStack(
+                        api.World.GetItem(
+                            new AssetLocation(
+                                becuttingboard.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardProps"]["output"]["code"].AsString()
+                                )
+                            ),
+                        becuttingboard.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardProps"]["output"]["quantity"].AsInt());
+
+                    becuttingboard.Inventory[0].Itemstack = outPutstack;
                     becuttingboard.updateMeshes();
                     becuttingboard.MarkDirty(true);
                     return false;
