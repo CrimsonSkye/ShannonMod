@@ -195,7 +195,7 @@ namespace ShannonMod.BlockEntities
             }
             else if (Block.Variant["side"] == "west")
             {
-                x = West?["x"] != null ? West["x"].AsFloat() : 0;
+                x = West?["x"] != null ? West["x"].AsFloat() : 1f;
                 y = West?["y"] != null ? West["y"].AsFloat() : 0;
                 z = West?["z"] != null ? West["z"].AsFloat() : 0;
 
@@ -204,7 +204,7 @@ namespace ShannonMod.BlockEntities
             }
             else if (Block.Variant["side"] == "east")
             {
-                x = East?["x"] != null ? East["x"].AsFloat() : 0;
+                x = East?["x"] != null ? East["x"].AsFloat() : -0.5f;
                 y = East?["y"] != null ? East["y"].AsFloat() : 0;
                 z = East?["z"] != null ? East["z"].AsFloat() : 0;
 
@@ -236,14 +236,26 @@ namespace ShannonMod.BlockEntities
                 
              
             }
-            ModelTransform transform = stack.Collectible.Attributes[this.AttributeTransformCode].AsObject<ModelTransform>();
+            ModelTransform transform = stack.Collectible.Attributes[this.AttributeTransformCode].AsObject<ModelTransform>();            
+
             transform.EnsureDefaultValues();
-            transform.Rotation.X = transform.Rotation.X;
-            transform.Rotation.Y = (Block.Shape.rotateY+90) + transform.Rotation.Y;
-            transform.Rotation.Z = transform.Rotation.Z;
+
+
+            String side = Block.Variant["side"];
+            transform.Rotation.X = transform.Rotation.X + 90; //+ addRotate(side + "x");
+            transform.Rotation.Y = (Block.Shape.rotateY + 90) + transform.Rotation.Y + addRotate(side + "y");
+            Api.Logger.Chat("Test");
+            transform.Rotation.Z = transform.Rotation.Z; //+ addRotate(side + "z");
             meshData.ModelTransform(transform);
 
             return meshData;
+        }
+
+        public float addRotate(string sideAxis)
+        {
+            JsonObject Side = this.Inventory[0].Itemstack.Collectible.Attributes;
+            Api.Logger.Debug(Side["smCuttingBoardTransform"]["rotation"][sideAxis].AsFloat().ToString());
+            return Side["smCuttingBoardTransform"]["rotation"][sideAxis].Exists ? Side["smCuttingBoardTransform"]["rotation"][sideAxis].AsFloat() : 0f;
         }
 
         private Matrixf mat = new Matrixf(); // access variable Matrixf, define variable mat to create a new instance of Matrixf. Matrixf handles values related to the EntityBlock. 
