@@ -1,0 +1,27 @@
+{
+  "code": "uncookedreedroot",
+  "attributes": {
+    "combustible": true,
+    "output": {
+      "code": "game:vegetable-cooked"
+    }
+  },
+  "variantgroups":[
+    {
+      "code": "type",
+      "states": [ "coopersreed", "papyrus" ]
+    }
+  ],
+  "shapebytype": {
+    "*-uncookedcattailroot": { "base": "game:item/food/vegetable/cattailsroot-cooked" },
+    "*-uncookedpapyrusroot": { "base": "game:item/food/vegetable/papyrusroot-cooked" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+
+  },
+  "texture": {
+    "base": "game:item/resource/reeds"
+  }
+}

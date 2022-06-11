@@ -62,16 +62,31 @@
     <None Update="assets\shannonmod\blocktypes\hidedoor.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\shannonmod\itemtypes\uncookedreedroot.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
     <None Update="assets\shannonmod\lang\en.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\shannonmod\patches\vanillapatch\bushmeat.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\fruit.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\shannonmod\patches\vanillapatch\knife.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\legume.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="assets\shannonmod\patches\vanillapatch\mushroom.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\pickledvegetable.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\pineapple.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\shannonmod\patches\vanillapatch\poultry.json">
@@ -81,6 +96,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\shannonmod\patches\vanillapatch\redmeat.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="assets\shannonmod\patches\vanillapatch\reedpapyrus.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="assets\shannonmod\patches\vanillapatch\vegetable.json">

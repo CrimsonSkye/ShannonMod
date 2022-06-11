@@ -5,7 +5,7 @@ using Vintagestory.API.Common;
 
 namespace ShannonMod.BlockEntities
 {
-    public class BEBakingPan : BlockEntity
+    public class BERoastingPan : BlockEntity
     {
     }
 }

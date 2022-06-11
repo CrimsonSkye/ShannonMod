@@ -1,0 +1,528 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType",
+    "value": {
+      "*-carrot": {
+        "cuttable": true,
+        "output": {
+          "code": "game:pickledvegetable-carrot",
+          "quantity": 4
+        }
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType",
+    "value": {
+      "*-carrot": {
+        "translation": {
+          "x": -0.34375,
+          "y": -0.04825,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.15625,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType",
+    "value": {
+      "*-carrot": {
+        "north": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "south": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "west": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "east": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-onion",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-onion",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-onion",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-turnip",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-turnip",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-turnip",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-parsnip",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-parsnip",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-parsnip",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-cabbage",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-cabbage",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-cabbage",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-soybean",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-soybean",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-soybean",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-pumpkin",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-pumpkin",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-pumpkin",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-bellpepper",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:pickledvegetable-onion",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-bellpepper",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-bellpepper",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/pickledvegetable.json",
+    "side": "server"
+  }
+]

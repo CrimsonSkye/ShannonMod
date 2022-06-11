@@ -5,7 +5,7 @@ using Vintagestory.API.Common;
 
 namespace ShannonMod.Blocks
 {
-    public class BakingPan : Block
+    public class RoastingPan : Block
     {
     }
 }

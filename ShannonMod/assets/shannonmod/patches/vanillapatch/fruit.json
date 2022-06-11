@@ -1,0 +1,1178 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType",
+    "value": {
+      "*-pineapple": {
+        "cuttable": true,
+        "output": {
+          "code": "game:fruit-pineapple",
+          "quantity": 4
+        }
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType",
+    "value": {
+      "*-pineapple": {
+        "translation": {
+          "x": -0.34375,
+          "y": -0.04825,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.15625,
+          "z": 0.5
+        },
+        "scale": 1
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType",
+    "value": {
+      "*-pineapple": {
+        "north": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "south": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "west": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "east": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-breadfruit",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-breadfruit",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-breadfruit",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-blueberry",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-blueberry",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-blueberry",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-cranberry",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-cranberry",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-cranberry",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-blackcurrent",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-blackcurrent",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-blackcurrent",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-saguaro",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-saguaro",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-saguaro",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-whitecurrent",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-whitecurrent",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-whitecurrent",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-redcurrent",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-redcurrent",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-redcurrent",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-redapple",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-redapple",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-redapple",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-pinkapple",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-pinkapple",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-pinkapple",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-yellowapple",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-yellowapple",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-yellowapple",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-cherry",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-cherry",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-cherry",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-peach",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-peach",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-peach",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-pear",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-pear",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-pear",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-orange",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-orange",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-orange",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-mango",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-mango",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-mango",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-lychee",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-lychee",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-lychee",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType/*-pomegranate",
+    "value": {
+      "cuttable": true,
+      "output": {
+        "code": "game:fruit-breadfruit",
+        "quantity": 4
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType/*-pomegranate",
+    "value": {
+      "translation": {
+        "x": -0.34375,
+        "y": -0.04825,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 90
+      },
+      "origin": {
+        "x": 0.5,
+        "y": 0.15625,
+        "z": 0.5
+      },
+      "scale": 1
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType/*-pomegranate",
+    "value": {
+      "north": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "south": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "west": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "east": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "server"
+  }
+]

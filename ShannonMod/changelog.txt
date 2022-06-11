@@ -1,4 +1,9 @@
-﻿1.16-v0.3.0
+﻿1.16-v0.4.0
+- begun adding patch files for food items
+- begun adding transforms to food items
+- created uncookedreedroots item for cutting board
+- created roasting pan shape, block, and block entity for further work
+1.16-v0.3.0
 - Added ExampleBehavior for reference
 - Added methods to both EBCuttingBlock and CuttingBlock to use food and knife attributes data
 - Added attributes to knife, redmeat, and vegetable through vanilla patches

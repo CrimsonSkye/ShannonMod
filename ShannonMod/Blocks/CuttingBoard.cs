@@ -47,17 +47,9 @@ namespace ShannonMod.Blocks
                     playNextSound += 1.7f;
                 }
                 //Third conditional statement. If seconds used is greater than int 2, then retrieve item carrot, clear BECuttingBlock inventory, update visual meshes, triggers block change event, and returns false. 
-                if (secondsUsed >= 2)
-                {
-                    ItemStack outPutstack = new ItemStack(
-                        api.World.GetItem(
-                            new AssetLocation(
-                                becuttingboard.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardProps"]["output"]["code"].AsString()
-                                )
-                            ),
-                        becuttingboard.Inventory[0].Itemstack.Collectible.Attributes["smCuttingBoardProps"]["output"]["quantity"].AsInt());
+                if (secondsUsed >= 2) { 
 
-                    becuttingboard.Inventory[0].Itemstack = outPutstack;
+                    becuttingboard.Inventory[0].Itemstack = outputStack(becuttingboard.Inventory[0].Itemstack);
                     becuttingboard.updateMeshes();
                     becuttingboard.MarkDirty(true);
                     return false;
@@ -67,6 +59,17 @@ namespace ShannonMod.Blocks
             }
             //If the first condition isn't met, return false. 
             return false;
+        }
+
+        private ItemStack outputStack(ItemStack stack)
+        {
+           
+            return new ItemStack(api.World.GetItem(new AssetLocation(
+                                  stack.Collectible.Attributes["smCuttingBoardProps"]["output"]["code"].AsString()
+                                )
+                                ),
+                                  stack.Collectible.Attributes["smCuttingBoardProps"]["output"]["quantity"].AsInt()
+                                );
         }
 
         //Overrides parent method OnBlockInteractStop, using the CuttingBoard class OnBlockInteractStop method instead

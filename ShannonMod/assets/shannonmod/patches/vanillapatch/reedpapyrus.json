@@ -1,0 +1,144 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType",
+    "value": {
+      "cattailroot": {
+        "cuttable": true,
+        "output": {
+          "code": "game:vegetable-cookedcattailroot",
+          "quantity": 1
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType",
+    "value": {
+      "cattailroot": {
+        "translation": {
+          "x": -0.34375,
+          "y": -0.04825,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.15625,
+          "z": 0.5
+        },
+        "scale": 0.5
+      }
+    },
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType",
+    "value": {
+      "cattailroot": {
+        "north": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "south": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "west": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "east": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardPropsByType",
+    "value": {
+      "papyrusroot": {
+        "cuttable": true,
+        "output": {
+          "code": "game:vegetable-cookedpapyrusroot",
+          "quantity": 1
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/papyrusroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTransformByType",
+    "value": {
+      "papyrusroot": {
+        "translation": {
+          "x": -0.34375,
+          "y": -0.04825,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 90
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.15625,
+          "z": 0.5
+        },
+        "scale": 0.5
+      }
+    },
+    "file": "game:itemtypes/resource/papyrusroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/smCuttingBoardTranslateByType",
+    "value": {
+      "papyrusroot": {
+        "north": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "south": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "west": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "east": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/papyrusroot.json",
+    "side": "server"
+  }
+]
